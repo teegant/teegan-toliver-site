@@ -18,10 +18,10 @@ a {
 }
 
 .linked-in-button {
-  width: 200px;
-  height: 100px;
+  width: fit-content;
+  height: fit-content;
   background-color: black;
   color: grey;
   border: 2px solid grey;
-  font-size: 50px;
+  font-size: 100%;
 }
