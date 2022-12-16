@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
+import Home from './components/home';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BasicNavBar from './components/nav-bar/navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome To Teeegan's Website</h1>
-        <form action="https://www.linkedin.com/in/teegan-toliver/">
-          <input type="submit" value="LinkedIn" class="linked-in-button"/>
-        </form>
-      </header>
+      <BasicNavBar></BasicNavBar>
+      <Home></Home>
     </div>
   );
 }
